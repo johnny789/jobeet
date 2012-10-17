@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites failures="0" errors="0" tests="35" assertions="35" skipped="0">
+  <testsuite name="sfTestFunctionalBase.class" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTestFunctionalBase.class.php" failures="0" errors="0" skipped="0" tests="11" assertions="11">
+    <testcase name="request parameter &quot;module&quot; is &quot;category&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;action&quot; is &quot;show&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;slug&quot; is &quot;programming&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;module&quot; is &quot;category&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;action&quot; is &quot;show&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;slug&quot; is &quot;programming&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="response selector &quot;.jobs tr&quot; matches &quot;20&quot; times" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="93" assertions="1"/>
+    <testcase name="response selector &quot;.pagination_desc&quot; matches regex &quot;/32 jobs/&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="104" assertions="1"/>
+    <testcase name="response selector &quot;.pagination_desc&quot; matches regex &quot;#page 1/2#&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="104" assertions="1"/>
+    <testcase name="request parameter &quot;page&quot; is &quot;2&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="response selector &quot;.pagination_desc&quot; matches regex &quot;#page 2/2#&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="104" assertions="1"/>
+  </testsuite>
+  <testsuite name="sfTestFunctionalBase.class" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTestFunctionalBase.class.php" failures="0" errors="0" skipped="0" tests="13" assertions="13">
+    <testcase name="request parameter &quot;module&quot; is &quot;job&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;action&quot; is &quot;index&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="response selector &quot;.job td.position:contains(&quot;expired&quot;)&quot; does not exist" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="85" assertions="1"/>
+    <testcase name="response selector &quot;.category_programming tr&quot; matches &quot;10&quot; times" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="93" assertions="1"/>
+    <testcase name="response selector &quot;.category_programming tr:first a[href*=&quot;/817/&quot;]&quot; exists" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="89" assertions="1"/>
+    <testcase name="request parameter &quot;module&quot; is &quot;job&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;action&quot; is &quot;show&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;company_slug&quot; is &quot;company-127&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;location_slug&quot; is &quot;paris-france&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;position_slug&quot; is &quot;web-developer&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;id&quot; is &quot;817&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="status code is &quot;404&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="412" assertions="1"/>
+    <testcase name="status code is &quot;404&quot;" file="D:\work\Adobe\omniture\workspace\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="412" assertions="1"/>
+  </testsuite>
+  <testsuite name="JobeetTest" file="D:\work\Adobe\omniture\workspace\jobeet\test\unit\JobeetTest.php" failures="0" errors="0" skipped="0" tests="8" assertions="8">
+    <testcase name="::slugify() converts all characters to lower case" file="D:\work\Adobe\omniture\workspace\jobeet\test\unit\JobeetTest.php" line="6" assertions="1"/>
+    <testcase name="::slugify() replaces a white space by a -" file="D:\work\Adobe\omniture\workspace\jobeet\test\unit\JobeetTest.php" line="7" assertions="1"/>
+    <testcase name="::slugify() replaces several white spaces by a single -" file="D:\work\Adobe\omniture\workspace\jobeet\test\unit\JobeetTest.php" line="8" assertions="1"/>
+    <testcase name="::slugify() removes - at the beginning of a string" file="D:\work\Adobe\omniture\workspace\jobeet\test\unit\JobeetTest.php" line="9" assertions="1"/>
+    <testcase name="::slugify() removes - at the end of a string" file="D:\work\Adobe\omniture\workspace\jobeet\test\unit\JobeetTest.php" line="10" assertions="1"/>
+    <testcase name="::slugify() replaces non-ASCII characters by a -" file="D:\work\Adobe\omniture\workspace\jobeet\test\unit\JobeetTest.php" line="11" assertions="1"/>
+    <testcase name="::slugify() converts a string that only contains non-ASCII characters to n-a" file="D:\work\Adobe\omniture\workspace\jobeet\test\unit\JobeetTest.php" line="12" assertions="1"/>
+    <testcase name="::slugify() removes accents" file="D:\work\Adobe\omniture\workspace\jobeet\test\unit\JobeetTest.php" line="15" assertions="1"/>
+  </testsuite>
+  <testsuite name="JobeetJobTest" file="D:\work\Adobe\omniture\workspace\jobeet\test\unit\model\JobeetJobTest.php" failures="0" errors="0" skipped="0" tests="3" assertions="3">
+    <testcase name="-&gt;getCompanySlug() return the slug for the company" file="D:\work\Adobe\omniture\workspace\jobeet\test\unit\model\JobeetJobTest.php" line="7" assertions="1"/>
+    <testcase name="-&gt;save() updates expires_at if not set" file="D:\work\Adobe\omniture\workspace\jobeet\test\unit\model\JobeetJobTest.php" line="13" assertions="1"/>
+    <testcase name="-&gt;save() does not update expires_at if set" file="D:\work\Adobe\omniture\workspace\jobeet\test\unit\model\JobeetJobTest.php" line="17" assertions="1"/>
+  </testsuite>
+</testsuites>

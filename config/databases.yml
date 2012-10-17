@@ -1,0 +1,14 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=jobeet'
+      username: jobeet
+      password: jobeet
+test:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=jobeet_test'
+      username: jobeet
+      password: jobeet
